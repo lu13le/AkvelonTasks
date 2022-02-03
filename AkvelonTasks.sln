@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeReferenceType", "V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{95533171-7452-4CBC-8542-40E082734FD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposable", "IDisposable\IDisposable.csproj", "{55D85F07-3C72-4E7E-8462-FDCD43D0A7CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{95533171-7452-4CBC-8542-40E082734FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95533171-7452-4CBC-8542-40E082734FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95533171-7452-4CBC-8542-40E082734FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D85F07-3C72-4E7E-8462-FDCD43D0A7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D85F07-3C72-4E7E-8462-FDCD43D0A7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D85F07-3C72-4E7E-8462-FDCD43D0A7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D85F07-3C72-4E7E-8462-FDCD43D0A7CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
