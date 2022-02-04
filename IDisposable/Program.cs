@@ -7,26 +7,24 @@ namespace IDisposable
     {
         static void Main(string[] args)
         {
-            string[] lines = { "This is line1", "This is line2", "This is line 3" };
+            
 
-            StreamWriter writer = null;
+            StreamReader reader = new StreamReader(@"C:\StreamWriter\name.txt");
+
             try
             {
-                writer = new StreamWriter(@"C:\StreamWriter\name.txt");
-                foreach (var line in lines)
-                {
-                    writer.WriteLine(line);
-                }
+                Console.WriteLine(reader.ReadToEnd());
             }
             catch (Exception ex)
             {
+                Console.WriteLine("Some error occurred.");
                 Console.WriteLine(ex.Message);
             }
             finally
             {
-                if (writer != null)
-                    writer.Dispose();
+                if (reader != null)
+                    reader.Dispose();
             }
-            }
+        }
     }
 }
